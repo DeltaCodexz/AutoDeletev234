@@ -23,7 +23,7 @@ from .database import *
 from pyrogram import Client, idle 
 #-------------------------------------------------------------------------------
 bot = Client("auto-delete-bot",
-          api_id=API_ID,
+          api_id=api_id,
           api_hash=API_HASH,
           bot_token=BOT_TOKEN)
 #-------------------------------------------------------------------------------
