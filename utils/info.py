@@ -18,7 +18,7 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", "2762299"))
+API_ID       = int(os.environ.get("api_id", "2762299"))
 API_HASH     = os.environ.get("API_HASH", "")
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
 SESSION      = os.environ.get("SESSION", "")
